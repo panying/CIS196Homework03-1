@@ -1,0 +1,12 @@
+<p>
+	<strong>Subject:</strong>
+	<%= @post.title %>
+</p>
+
+<p>
+	<strong>What he/she said...</strong>
+	<%=@post.text %>
+</p>
+
+<%= link_to 'I want to tell you something interest!', :action => :new %><br>
+<%= link_to 'See what other people said...', :action => :index %>
